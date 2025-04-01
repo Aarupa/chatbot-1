@@ -33,6 +33,7 @@ chatbot = ChatBot('IndeedBot')
 
 # Create a trainer and train the chatbot
 trainer = ChatterBotCorpusTrainer(chatbot)
+print(trainer)
 
 # Define the absolute path to the corpus files
 corpus_path = "c:/users/ajink/anaconda3/envs/chatbotenv/lib/site-packages/chatterbot_corpus/data/english/"
